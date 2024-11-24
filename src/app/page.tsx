@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import CompaniesBar from "@/components/CompaniesBar";
 import Navbar from "@/components/Navbar";
+import NewArrivals from "@/components/NewArrivals";
 import TopBar from "@/components/TopBar";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <CompaniesBar />
+      <NewArrivals />
     </div>
   );
 }
