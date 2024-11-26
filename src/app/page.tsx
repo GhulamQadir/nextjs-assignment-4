@@ -1,7 +1,11 @@
 import Banner from "@/components/Banner";
+import BrowseDress from "@/components/BrowseDress";
 import CompaniesBar from "@/components/CompaniesBar";
+import CustomersReview from "@/components/CustomersReview";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import NewArrivals from "@/components/NewArrivals";
+import NewArrivals from "@/components/NewArrivalsAndTopSelling";
+import ProductsComponent from "@/components/ProductsComponent";
 import TopBar from "@/components/TopBar";
 
 export default function Home() {
@@ -11,7 +15,10 @@ export default function Home() {
       <Navbar />
       <Banner />
       <CompaniesBar />
-      <NewArrivals />
+      <ProductsComponent />
+      <BrowseDress />
+      <CustomersReview />
+      <Footer />
     </div>
   );
 }
