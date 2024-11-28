@@ -4,7 +4,6 @@ import CompaniesBar from "@/components/CompaniesBar";
 import CustomersReview from "@/components/CustomersReview";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import NewArrivals from "@/components/NewArrivalsAndTopSelling";
 import ProductsComponent from "@/components/ProductsComponent";
 import TopBar from "@/components/TopBar";
 

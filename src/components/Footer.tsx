@@ -36,8 +36,8 @@ function Footer() {
           <div className="lg:w-[20%] md:w-[35%] w-[50%] mb-5">
             <Image src={Logo} alt="shop.co" />
             <p className="mt-5 text-sm text-[#00000099] leading-[22px]">
-              We have clothes that suits your style and which you're proud to
-              wear. From women to men.
+              We have clothes that suits your style and which you&apos;re proud
+              to wear. From women to men.
             </p>
             <div className="flex gap-x-5 mt-4">
               <div className="bg-white px-[6px] py-[6px] rounded-full">

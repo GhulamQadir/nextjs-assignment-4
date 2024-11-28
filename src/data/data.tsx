@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface Product {
   name: string;
   image: string;
@@ -100,29 +98,24 @@ const topSellingData: Product[] = [
 interface TBrowseDress {
   image: string;
   categName: string;
-  width: number;
 }
 
 const browseDressData: TBrowseDress[] = [
   {
     image: "/categ_images/casual.png",
     categName: "Casual",
-    width: 300,
   },
   {
     image: "/categ_images/formal.png",
     categName: "Formal",
-    width: 600,
   },
   {
     image: "/categ_images/party.png",
     categName: "Party",
-    width: 600,
   },
   {
     image: "/categ_images/gym.png",
     categName: "Gym",
-    width: 300,
   },
 ];
 

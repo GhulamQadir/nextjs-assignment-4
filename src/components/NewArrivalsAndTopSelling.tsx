@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import ProductCard from "./ProductCard";
 
 interface TProduct {
@@ -16,7 +15,7 @@ interface TProps {
   categoryName: string;
 }
 function NewArrivalsAndTopSelling({ data, categoryName }: TProps) {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(0);
   const [prodPerPage, setProdPerPage] = useState(data.slice(0, 5));
 
   useEffect(() => {

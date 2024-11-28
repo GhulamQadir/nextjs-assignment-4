@@ -10,7 +10,7 @@ function BrowseDress() {
         </p>
         <div className="flex flex-wrap justify-center gap-x-3 gap-y-3">
           {browseDressData.map((item, index) => {
-            const { image, categName, width } = item;
+            const { image, categName } = item;
             return (
               <div key={index} className={`relative`}>
                 <div className="absolute top-3 left-5">
