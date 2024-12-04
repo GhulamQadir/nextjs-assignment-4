@@ -15,7 +15,7 @@ interface TProps {
   categoryName: string;
 }
 function NewArrivalsAndTopSelling({ data, categoryName }: TProps) {
-  const [screenWidth, setScreenWidth] = useState(0);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [prodPerPage, setProdPerPage] = useState(data.slice(0, 5));
 
   useEffect(() => {

@@ -1,4 +1,3 @@
-"use client";
 import { newArrivalsData, topSellingData } from "@/data/data";
 import NewArrivalsAndTopSelling from "./NewArrivalsAndTopSelling";
 
